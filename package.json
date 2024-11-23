@@ -1,6 +1,6 @@
 {
-  "name": "vatsal-website",
-  "description": "Personal website of Vatsal Dhameliya, a machine learning scientist.",
+  "name": "sunil-website",
+  "description": "Personal website of Sunil Swain, a machine learning scientist.",
   "version": "1.0.0",
   "author": "Jitendra Nirnejak <jeetnirnejak@gmail.com>",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "next lint",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "type-check": "tsc --pretty --noEmit",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.0",

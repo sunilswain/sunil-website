@@ -23,8 +23,8 @@ const generateMetadata = ({
     title: metaTitle,
     description: metaDescription,
 
-    applicationName: "Vatsal Dhameliya",
-    creator: "Vatsal Dhameliya",
+    applicationName: "Sunil Swain",
+    creator: "Sunil Swain",
     authors: [{ name: "Jitendra Nirnejak", url: "https://nirnejak.com/" }],
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
@@ -50,7 +50,7 @@ const generateMetadata = ({
     openGraph: {
       type: "website",
       url: `${BASE_URL}${path}`,
-      siteName: "Vatsal Dhameliya",
+      siteName: "Sunil Swain",
       title: metaTitle,
       description: metaDescription,
       images: metaImage,

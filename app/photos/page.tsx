@@ -10,8 +10,8 @@ import generateMetadata from "utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/photos/",
-  title: "Photos | Vatsal Dhameliya - AI Scientist",
-  description: "Stunning pictures captured by Vatsal Dhameliya",
+  title: "Photos | Sunil Swain - AI Scientist",
+  description: "Stunning pictures captured by Sunil Swain",
 })
 
 const PhotosPage: React.FC = () => {

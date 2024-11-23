@@ -10,9 +10,8 @@ import generateMetadata from "utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/",
-  title: "Vatsal Dhameliya - AI Scientist",
-  description:
-    "Personal website of Vatsal Dhameliya, a machine learning scientist.",
+  title: "Sunil Swain - AI/ML Egnineer",
+  description: "Personal website of Sunil Swain, an AI/ML Egnineer",
 })
 
 const HomePage: React.FC = () => {
@@ -35,7 +34,7 @@ const HomePage: React.FC = () => {
             className="mb-7 flex text-4xl font-semibold leading-snug tracking-tight text-neutral-800 md:text-5xl md:leading-snug dark:text-neutral-300"
           >
             <span className="text-neutral-400 dark:text-neutral-600">
-              Vatsal Dhameliya.
+              Sunil Swain.
             </span>
           </motion.span>
         </h1>
@@ -45,21 +44,21 @@ const HomePage: React.FC = () => {
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
           className="mb-20 text-sm text-neutral-600 md:text-base dark:text-neutral-500"
         >
-          I{"'"}m a{" "}
+          I{"'"}m an{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-300">
-            Senior AI Scientist @
+            AI/ML Engineer @
           </span>{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-300">
-            Jupiter Money
+            ESSPL
           </span>
-          . With a degree in{" "}
+          {/* . With a degree in{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-300">
             Artificial Intelligence
           </span>{" "}
           from{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-300">
             IIIT Bangalore
-          </span>
+          </span> */}
           , I specialize in Computer Vision, Large Language Models and
           Generative AI.
         </motion.p>
@@ -70,7 +69,7 @@ const HomePage: React.FC = () => {
           className="grid grid-cols-2 gap-4 md:grid-cols-4"
         >
           <a
-            href="https://www.linkedin.com/in/vatsal-patel-70420b112/"
+            href="https://www.linkedin.com/in/sunil-swain/"
             className="flex items-center justify-center gap-2.5 rounded-md bg-neutral-200 px-3.5 py-2 text-xs text-neutral-700 transition-colors hover:bg-neutral-300 md:px-5 md:py-2.5 md:text-base dark:bg-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
             target="_blank"
           >
@@ -86,7 +85,7 @@ const HomePage: React.FC = () => {
             <span className="text-sm">Twitter</span>
           </a>
           <a
-            href="https://github.com/vats-al/"
+            href="https://github.com/sunilswain/"
             className="flex items-center justify-center gap-2.5 rounded-md bg-neutral-200 px-3.5 py-2 text-xs text-neutral-700 transition-colors hover:bg-neutral-300 md:px-5 md:py-2.5 md:text-base dark:bg-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
             target="_blank"
           >
@@ -94,7 +93,7 @@ const HomePage: React.FC = () => {
             <span className="text-sm">Github</span>
           </a>
           <a
-            href="mailto:vatsalkumar.dhameliya@gmail.com"
+            href="mailto:sunilswain5555@pm.me"
             className="flex items-center justify-center gap-2.5 rounded-md bg-neutral-200 px-3.5 py-2 text-xs text-neutral-700 transition-colors hover:bg-neutral-300 md:px-5 md:py-2.5 md:text-base dark:bg-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
             target="_blank"
           >

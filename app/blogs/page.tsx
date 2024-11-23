@@ -12,8 +12,8 @@ import generateMetadata from "utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/blogs/",
-  title: "Blogs | Vatsal Dhameliya - AI Scientist",
-  description: "Blogs and articles on AI and tech written by Vatsal Dhameliya",
+  title: "Blogs | Sunil Swain - AI Scientist",
+  description: "Blogs and articles on AI and tech written by Sunil Swain",
 })
 
 const blogs = [

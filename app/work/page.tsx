@@ -9,9 +9,9 @@ import generateMetadata from "utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/work/",
-  title: "Work | Vatsal Dhameliya - AI Scientist",
+  title: "Work | Sunil Swain - AI Scientist",
   description:
-    "Generative AI and Large Language Model projects built by Vatsal Dhameliya",
+    "Generative AI and Large Language Model projects built by Sunil Swain",
 })
 
 const WorkPage: React.FC = () => {
@@ -45,14 +45,14 @@ const WorkPage: React.FC = () => {
           className="space-y-2 text-neutral-800 dark:text-neutral-400"
         >
           <div className="flex items-center gap-2">
-            <p className="font-medium">Jupiter Money</p>
+            <p className="font-medium">ESSPL - Associate AI/ML Developer</p>
             <div className="flex-1 border-t border-dashed border-neutral-300 dark:border-neutral-800" />
-            <p>2022 - Now</p>
+            <p>2023, June - Now</p>
           </div>
           <div className="flex items-center gap-2">
-            <p className="font-medium">ZS Associates</p>
+            <p className="font-medium">Sambad Digital - Technical Intern</p>
             <div className="flex-1 border-t border-dashed border-neutral-300 dark:border-neutral-800" />
-            <p>2021 - 2022</p>
+            <p>2023 March - 2023 June</p>
           </div>
         </motion.div>
       </div>

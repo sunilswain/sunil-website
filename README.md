@@ -1,5 +1,5 @@
 <h1 align="center">
-  Vatsal Dhameliya's Personal Website
+  Sunil Swain's Personal Website
 </h1>
 
 ---

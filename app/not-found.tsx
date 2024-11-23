@@ -10,7 +10,7 @@ import generateMetadata from "utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/404/",
-  title: "Not Found | Vatsal Dhameliya - AI Scientist",
+  title: "Not Found | Sunil Swain - AI Scientist",
   description: "Cannot find the page you're looking for",
 })
 
