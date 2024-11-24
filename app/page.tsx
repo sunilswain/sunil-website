@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { type Metadata } from "next"
 
-import { LinkedinFill, TwitterFill, Envelope, GithubFill } from "akar-icons"
+import { LinkedinFill, MediumFill, Envelope, GithubFill } from "akar-icons"
 import * as motion from "framer-motion/client"
 
 import { BASE_TRANSITION } from "utils/animation"
@@ -77,12 +77,12 @@ const HomePage: React.FC = () => {
             <span className="text-sm">LinkedIn</span>
           </a>
           <a
-            href="https://x.com/vats_al_/"
+            href="https://medium.com/@sunilswain5555"
             className="flex items-center justify-center gap-2.5 rounded-md bg-neutral-200 px-3.5 py-2 text-xs text-neutral-700 transition-colors hover:bg-neutral-300 md:px-5 md:py-2.5 md:text-base dark:bg-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
             target="_blank"
           >
-            <TwitterFill size={15} />
-            <span className="text-sm">Twitter</span>
+            <MediumFill size={15} />
+            <span className="text-sm">Medium</span>
           </a>
           <a
             href="https://github.com/sunilswain/"
