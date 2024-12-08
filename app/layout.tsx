@@ -35,7 +35,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
       <head>
         <script
           defer
-          data-domain="vatsal.website"
+          data-domain="sunilswain.me"
           src="https://plausible.io/js/script.js"
         />
       </head>
