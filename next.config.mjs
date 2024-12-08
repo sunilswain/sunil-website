@@ -1,5 +1,4 @@
 import createMDX from "@next/mdx"
-
 import rehypeKatex from "rehype-katex"
 import remarkMath from "remark-math"
 
