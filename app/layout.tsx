@@ -2,9 +2,9 @@ import * as React from "react"
 
 import type { Viewport } from "next"
 
-import { Inter } from "next/font/google"
-import localFont from "next/font/local"
+import { Inter, JetBrains_Mono } from "next/font/google"
 
+import DotPattern from "components/atoms/DotPattern"
 import Navbar from "components/molecules/Navbar"
 import classNames from "utils/classNames"
 
@@ -16,15 +16,9 @@ const sansFont = Inter({
   subsets: ["latin"],
 })
 
-const monoFont = localFont({
+const monoFont = JetBrains_Mono({
   variable: "--mono-font",
-  src: [
-    {
-      path: "../fonts/JetBrainsMono-Regular.ttf",
-      weight: "regular",
-      style: "normal",
-    },
-  ],
+  subsets: ["latin"],
 })
 
 export const viewport: Viewport = {
@@ -55,6 +49,8 @@ const RootLayout: React.FC<Props> = ({ children }) => {
       >
         <Navbar />
         {children}
+
+        <DotPattern />
       </body>
     </html>
   )

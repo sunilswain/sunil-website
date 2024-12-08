@@ -1,6 +1,6 @@
 import { type Metadata } from "next"
 
-export const BASE_URL = "https://vatsal.website" // Don't include slash at the end
+export const BASE_URL = "https://sunilswain.me" // Don't include slash at the end
 
 interface MetadataArgs {
   path: string
@@ -29,8 +29,8 @@ const generateMetadata = ({
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     keywords: [
-      "Vatsal",
-      "Dhameliya",
+      "Sunil",
+      "Swain",
       "Artificial Intelligence",
       "AI",
       "Machine Learning",
@@ -57,14 +57,14 @@ const generateMetadata = ({
       // videos: "",  // INFO: og video option
     },
 
-    twitter: {
-      card: "summary_large_image",
-      site: "@vats_al_",
-      creator: "@vats_al_",
-      title: metaTitle,
-      description: metaDescription,
-      images: metaImage,
-    },
+    // twitter: {
+    //   card: "summary_large_image",
+    //   site: "@vats_al_",
+    //   creator: "@vats_al_",
+    //   title: metaTitle,
+    //   description: metaDescription,
+    //   images: metaImage,
+    // },
 
     appleWebApp: {
       capable: true,

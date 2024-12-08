@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import classNames from "@/utils/classNames"
+import classNames from "utils/classNames"
 
 interface DotPatternProps {
   width?: any
@@ -30,7 +30,7 @@ const DotPattern: React.FC<DotPatternProps> = ({
     <svg
       aria-hidden="true"
       className={classNames(
-        "pointer-events-none absolute inset-0 h-full w-full fill-neutral-400/80",
+        "pointer-events-none h-full w-full fill-neutral-400/20 dark:fill-neutral-400/10 z-[-1] fixed inset-0",
         className
       )}
       {...props}
