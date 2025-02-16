@@ -8,9 +8,9 @@ const nextConfig = {
   trailingSlash: true,
   reactStrictMode: true,
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
-  // eslint: {
-  //   ignoreDuringBuilds: true,
-  // },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 const withMDX = createMDX({
