@@ -5,7 +5,8 @@ import { type Metadata } from "next"
 import * as motion from "framer-motion/client"
 import Image from "next/image"
 
-import { BASE_TRANSITION } from "@/utils/animation"
+import { BASE_TRANSITION } from "utils/animation"
+import { photos } from "utils/photos"
 import generateMetadata from "utils/seo"
 
 export const metadata: Metadata = generateMetadata({
@@ -51,10 +52,11 @@ const PhotosPage: React.FC = () => {
               className="rounded-3xl bg-white p-2.5 shadow-lg"
             >
               <Image
-                src={`/photos/${photo}`}
-                alt={photo}
+                src={photo}
+                alt={photo.src}
                 width={300}
                 height={533}
+                placeholder="blur"
                 className="rounded-2xl"
               />
             </motion.div>
@@ -66,29 +68,3 @@ const PhotosPage: React.FC = () => {
 }
 
 export default PhotosPage
-
-const photos = [
-  "IMG_0620.jpeg",
-  "IMG_0630.jpeg",
-  "IMG_1691.jpeg",
-  "IMG_2563.jpeg",
-  "IMG_2571.jpeg",
-  "IMG_2579.jpeg",
-  "IMG_5398.jpeg",
-  "IMG_5404.jpeg",
-  "IMG_5472.jpeg",
-  "IMG_5515.jpeg",
-  "IMG_6162.jpeg",
-  "IMG_6284.jpeg",
-  // "IMG_6288.jpeg",
-  // "IMG_6406.jpeg",
-  "IMG_6422.jpeg",
-  "IMG_6441.jpeg",
-  // "IMG_6826.jpeg",
-  "IMG_6864.jpeg",
-  // "IMG_8434.jpeg",
-  "IMG_8490.jpeg",
-  "IMG_8513.jpeg",
-  "IMG_8633.jpeg",
-  "IMG_8798.jpeg",
-]
