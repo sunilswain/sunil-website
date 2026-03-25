@@ -1,7 +1,13 @@
 "use client"
 import * as React from "react"
 
-import { DoubleCheck, Home, Image as ImageIcon, Newspaper } from "akar-icons"
+import {
+  DoubleCheck,
+  Grid,
+  Home,
+  Image as ImageIcon,
+  Newspaper,
+} from "akar-icons"
 import * as motion from "framer-motion/client"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -18,6 +24,11 @@ const links = [
     value: <DoubleCheck size={16} />,
     text: "Work",
     href: "/work/",
+  },
+  {
+    value: <Grid size={16} />,
+    text: "Projects",
+    href: "/projects/",
   },
   {
     value: <Newspaper size={16} />,

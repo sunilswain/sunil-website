@@ -10,8 +10,9 @@ import generateMetadata from "utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/",
-  title: "Sunil Swain - AI/ML Egnineer",
-  description: "Personal website of Sunil Swain, an AI/ML Egnineer",
+  title: "Sunil Swain - AI/ML Engineer",
+  description:
+    "Personal website of Sunil Swain, an AI/ML engineer focused on Gen AI, LLMs, and voice systems.",
 })
 
 const HomePage: React.FC = () => {
@@ -44,23 +45,17 @@ const HomePage: React.FC = () => {
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
           className="mb-20 text-sm text-neutral-600 md:text-base dark:text-neutral-500"
         >
-          I{"'"}m an{" "}
+          I{"'"}m{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-300">
-            AI/ML Engineer @
+            AVP, Artificial Intelligence
           </span>{" "}
+          at{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-300">
-            ESSPL
+            Wells Fargo
           </span>
-          {/* . With a degree in{" "}
-          <span className="font-semibold text-neutral-800 dark:text-neutral-300">
-            Artificial Intelligence
-          </span>{" "}
-          from{" "}
-          <span className="font-semibold text-neutral-800 dark:text-neutral-300">
-            IIIT Bangalore
-          </span> */}
-          , I specialize in Computer Vision, Large Language Models and
-          Generative AI.
+          , on the central AI team. I specialize in large language models,
+          generative AI, voice systems, and shipping production AI that teams
+          can rely on.
         </motion.p>
         <motion.div
           initial={{ translateY: 10, opacity: 0 }}

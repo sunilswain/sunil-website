@@ -2,16 +2,14 @@ import * as React from "react"
 
 import classNames from "utils/classNames"
 
-interface DotPatternProps {
-  width?: any
-  height?: any
-  x?: any
-  y?: any
-  cx?: any
-  cy?: any
-  cr?: any
-  className?: string
-  [key: string]: any
+interface DotPatternProps extends React.SVGProps<SVGSVGElement> {
+  width?: number
+  height?: number
+  x?: number
+  y?: number
+  cx?: number
+  cy?: number
+  cr?: number
 }
 const DotPattern: React.FC<DotPatternProps> = ({
   width = 16,

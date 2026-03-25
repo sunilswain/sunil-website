@@ -3,4 +3,4 @@ export const BASE_TRANSITION = {
   type: "spring",
   stiffness: 200,
   damping: 15,
-}
+} as const
