@@ -29,7 +29,7 @@ const webProducts = [
   },
   {
     title: "Ezi Learning",
-    href: "https://ezi-learning.haptix.in/",
+    href: "https://ezilearning.haptix.in/",
     description:
       "Learning product on the Haptix stack—structured content delivery and learner-facing flows.",
   },
