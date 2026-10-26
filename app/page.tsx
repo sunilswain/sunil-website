@@ -4,6 +4,7 @@ import { type Metadata } from "next"
 
 import { LinkedinFill, MediumFill, Envelope, GithubFill } from "akar-icons"
 import * as motion from "framer-motion/client"
+import Link from "next/link"
 
 import { BASE_TRANSITION } from "utils/animation"
 import generateMetadata from "utils/seo"
@@ -95,6 +96,19 @@ const HomePage: React.FC = () => {
             <Envelope size={15} />
             <span className="text-sm">Email</span>
           </a>
+        </motion.div>
+        <motion.div
+          initial={{ translateY: 10, opacity: 0 }}
+          animate={{ translateY: 0, opacity: 1 }}
+          transition={{ delay: 0.4, ...BASE_TRANSITION }}
+          className="mt-12 text-center text-xs text-neutral-400 dark:text-neutral-600"
+        >
+          <Link
+            href="/privacy-policy/"
+            className="transition-colors hover:text-neutral-600 dark:hover:text-neutral-400 underline underline-offset-4"
+          >
+            Privacy Policy
+          </Link>
         </motion.div>
       </div>
     </main>

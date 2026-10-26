@@ -10,6 +10,15 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/privacy",
+        destination: "/privacy-policy/",
+        permanent: true,
+      },
+    ]
+  },
 }
 
 const withMDX = createMDX({
